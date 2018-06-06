@@ -1906,7 +1906,7 @@ def get_total_scan_point(hdr):
 
 
 def make_hdf(start, end=None, fname=None,
-             prefix='scan2D_', full_data=True, create_each_det=False):
+             prefix='scan2D_', full_data=False, create_each_det=False):
     """
     Transfer multiple h5 files.
 
